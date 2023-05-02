@@ -1,0 +1,13 @@
+.productList {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  width: 100%;
+  justify-items: center;
+}
+
+.productItem {
+  width: 450px;
+  height: 450;
+  border: 2px solid;
+  margin: 10px;
+}
